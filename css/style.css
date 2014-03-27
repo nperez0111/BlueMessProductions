@@ -1,0 +1,951 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+body {
+    margin: 0;
+	overflow-x:hidden;
+}
+}
+
+/* Kindle Portrait 600 X 1024 ----------- */
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px){
+body {
+    margin: 0;
+	overflow-x:hidden;
+}}
+
+.body {
+	top: 198px;
+	overflow-x:hidden;
+}
+
+.error-legend{
+width: 565px;
+overflow: hidden;
+position: relative;
+margin: -18px 0 -55px -8px;
+font: bold 15px/20px Arial, Helvetica, sans-serif;
+display:none;
+}
+
+/******************************
+Navigation
+*******************************/
+.button, .button {
+border-style: none;
+border-width: 0px;
+}
+
+#main_nav {
+	min-width: 1024px;
+	position: fixed;
+	background-color: #FFFFFF;
+	height: 58px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.navbutton {
+	background-color:#f4f6f5;
+	border:none;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+}
+.topbar {
+	width: 100%;
+	left: 0;
+	position: fixed;
+	/*top: 0;
+*/  z-index: 9999;
+}
+.top-bar {
+	overflow: hidden;
+/*	height: 45px;*/
+	line-height: 45px;
+	position: relative;
+	background: #111111;
+	margin-bottom: 0em;
+}
+.topbuttons {
+	list-style: none;
+	margin: 0;
+}
+#navigation {
+	padding:0px 0px 65px 5px;
+	background-color:#fff;
+}
+#navigation ul {
+	overflow:hidden;
+}
+#navigation li {
+	width: 16.66%;
+	height:60px;
+	float:left;
+	display:block;
+	position:relative;
+	text-align:center;
+}
+#navigation li a {
+	width:auto;
+	height:100%;
+	display:block;
+	overflow:hidden;
+	margin-right:5px;
+	/*	-webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;*/
+	/* font */
+	color:#c0c2c1;
+	font-size:1.4em;
+	font-weight: 400;
+	/*	letter-spacing: 0.1em;*/
+	text-decoration:none;
+	font-style:normal;
+	text-transform:uppercase;
+	font-family:'brandon-grotesque', 'proxima-nova', Helvetica, Arial, sans-serif;
+	line-height:1.2em;
+}
+#navigation li a:link, a:visited {
+	background-color:#f4f6f5;
+}
+#navigation li a:hover, a:active {
+	background-color:#2393dd;
+	color:#FFFFFF;
+}
+/* out/over */
+#navigation li a .out, #navigation li a .over {
+	width:100%;
+	height:100%;
+	display:block;
+	-webkit-transition:margin-top 200ms ease-out;
+	-moz-transition:margin-top 200ms ease-out;
+	-o-transition:margin-top 200ms ease-out;
+	-ms-transition:margin-top 200ms eases-out;
+}
+#navigation li a .out {
+	background-color:#f4f6f6;
+}
+#navigation li a .over {
+	color:#fff;
+	background-color:#ec715a;
+}
+#navigation li a .over {
+	margin-top:-60px;
+}
+#navigation li.current-item a .over, #navigation li a:hover .over {
+	margin-top:0;
+}
+/* navlabel */
+#navigation li a .navlabel {
+	display:block;
+	padding-top:17px;
+	font-size: 75%;
+}
+#navigation li a .navlabel span {
+	display:block;
+}
+#logo-top {
+	background-color: #fff;
+	z-index: 1000;
+	width: auto;
+	padding:0px 0px 5px 0px;
+	height: 60px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+#logo-top a {
+	width:auto;
+	height:100%;
+	display:block;
+	text-indent:-9999px;
+	background-image:url(http://www.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/NEW/foundation/img/bluelogo.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:#000;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	position:relative;
+	-webkit-transition:background-color 150ms ease-in-out;
+	-moz-transition:background-color 150ms ease-in-out;
+	-o-transition:background-color 150ms ease-in-out;
+	-ms-transition:background-color 150ms ease-in-out;
+}
+#logo-top a:hover {
+	background-color:#a79496;
+	cursor:pointer;
+}
+#logo-top .loader {
+	margin-bottom:20px;
+}
+
+.scrollingBtn{
+float: right; 
+margin-right: 110px;
+margin-top: 5px;
+}
+/******************************
+Center Container
+*******************************/
+.containerContent {
+padding-top: 80px;
+	padding-bottom: 83px;
+}
+
+.containerContentContact {
+padding-top: 80px;
+padding-bottom: 83px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.ContactHeight{
+height: 55px!important;
+}
+
+.ContactStyle{
+background-color: #a79496;
+height: 100%;
+padding: 5px 15px 1px;;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.ContactLabel{
+color: #e2d9da;
+font-size: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+/******************************
+Home
+*******************************/
+.homecontent {
+padding-top: 210px;
+	padding-bottom: 80px;
+}
+
+/******************************
+ALL SLIDES
+*******************************/
+.pagedivider {
+margin: -28px;
+position: relative;
+z-index: 8;
+text-align: center;
+}
+.slide {
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
+}
+
+/******************************
+Backgrounds 
+*******************************/
+
+#darkbg {
+	background-image:url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/dark_gray.jpg);
+	background-repeat:repeat;
+}
+#lightbg {
+	background-image:url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/light_gray.jpg);
+	background-repeat:repeat;
+}
+/******************************
+Bluemess Section
+*******************************/
+.bluemessAbout {
+background-color: #a79496;
+padding: 14px;
+color: #FFFFFF;
+line-height: 18px;
+font-size: 16px;
+min-height: 338px;
+margin-left: 3px;
+width: 71%;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 4px;
+}
+.bluemessDownBtn {
+}
+.bluemessRow {
+/*max-width:921px;*/
+}
+.bluemessAbout p {
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.2;
+	margin-bottom: 1.25em;
+	text-rendering: optimizeLegibility;
+	text-align: justify;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.bluemessTonyImg {
+width: 17%;
+padding-top: 4px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.bluemessTonyTitle {
+	background-color:#575757;
+	margin-top: 4px;
+	/*width: 97%;
+	margin-left: 15px;*/
+	text-align:center;
+	color:#FFFFFF;
+}
+.bluemessTonyTitle p {
+margin-bottom: 0px;
+line-height: 3;
+font-size: 18px;
+}
+.tablehead {
+	background: #2393dd;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.servicesTable{
+border: solid 1px #2393dd;
+height: 213px;
+width: 78%;
+}
+
+.bluemessTable{
+border: solid 1px #2393dd;
+height: 213px;
+width: 100%;
+}
+
+.smallTable{
+}
+
+.Mixingstyle{
+height: 168px;
+}
+
+.innerarrow {
+	position: absolute;
+	top: 60%;
+	height: 6em;
+	margin-top: -3em;
+	margin-left: 39%;
+}
+.outerarrow {
+/*	background-color: #2393dd;
+*/	min-height: 338px;
+/*	margin-top: 4px;
+*/	position: relative;
+	text-align: center;
+}
+
+.bluemessArrowbtn{
+width: 11.3%;
+padding-left: 5px;
+background-color: #2393dd;
+margin-top: 4px;
+margin-left: 4px;
+}
+
+.bluemessServices{
+margin-top: 4px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+/******************************
+ Bluemess Media only max-width 768px
+*******************************/
+@media only screen and (max-width: 768px) {
+.bluemessTonyImg {
+display:none;
+}
+.servicesTable{
+border: solid 1px #2393dd;
+height: 213px;
+width: 98%;
+}
+
+}
+@media only screen and (max-width: 1016px) {
+.DiscButtons.discbtn.custom {
+width: 100%;
+height: 62px;
+margin-bottom: 4px;
+}
+
+
+.arrow.discbtn.custom {
+height: 62px;
+width: 100%!important;
+}
+
+.bluemessTonyImg {
+display:none;
+}
+
+.bluemessAbout {
+background-color: #a79496;
+padding: 14px;
+color: #FFFFFF;
+line-height: 18px;
+font-size: 16px;
+min-height: 338px;
+margin-left: 0px;
+width: 100%;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 4px;
+}
+
+.bluemessArrowbtn{
+width: 100%;
+background-color: #2393dd;
+margin-top: 4px;
+margin-left: 0px;
+}
+
+.outerarrow {
+/*	background-color: #2393dd;
+*/	min-height: 80px;
+/*	margin-top: 4px;
+*/	position: relative;
+	text-align: center;
+}
+.innerarrow {
+position: absolute;
+top: 100%;
+margin-left: 50%;;
+}
+
+.scrollingBtn{
+float: right; 
+margin-right: 11%;
+margin-top: 5px;
+}
+.bluemessAbout p {
+line-height: 1.8;
+font-size: 1.04em;
+}
+
+.TopContact {
+color: #FFFFFF;
+line-height: 18px;
+font-size: 16px;
+margin-left: 3px;
+width: 87.9%;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 4px;
+}
+
+}
+
+/******************************
+ Discography Section
+*******************************/
+
+.DiscBottom{
+margin-bottom: 90px;
+}
+
+.discbtn.custom {
+width: 112.5px;
+height: 62px;
+display: inline-block;
+border-style: solid;
+border-width: 0px;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+line-height: 1;
+margin: 0 0 1.25em;
+position: relative;
+text-decoration: none;
+text-align: center;
+background-color: #101d26;
+color: white;
+padding-right: 0px;
+padding-left: 0px;
+padding-top: 24px;
+font-size: 0.625em;}
+  .discbtn.custom:hover, .discbtn.custom:focus {
+    background-color: #2b4c63; }
+  .discbtn.custom:hover, .discbtn.custom:focus {
+    color: #FFFFFF; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {  
+/* CSS Statements that only apply on webkit-based browsers (Chrome, Safari, etc.) */  
+ .discbtn.custom {
+width: 113px;
+height: 62px;
+display: inline-block;
+border-style: solid;
+border-width: 0px;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+line-height: 1;
+margin: 0 0 1.25em;
+position: relative;
+text-decoration: none;
+text-align: center;
+background-color: #101d26;
+color: white;
+padding-right: 0px;
+padding-left: 0px;
+padding-top: 24px;
+font-size: 0.625em;}
+  .discbtn.custom:hover, .discbtn.custom:focus {
+    background-color: #2b4c63; }
+  .discbtn.custom:hover, .discbtn.custom:focus {
+    color: #FFFFFF; }
+ 
+}
+
+
+.arrow.discbtn.custom {
+background-color: #2393dd;
+    height: 62px;                        
+    width: 64px;
+	 background-image: url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/downbtn.jpg);
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 text-indent: -9999px;
+}
+
+.discSection{
+margin-top:4px;
+}
+
+.message{
+  width: 31px; 
+  height: 20px;
+  background: url("http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/messages.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  text-indent: -9999px;
+ }
+ 
+
+ .music{
+  width: 31px; 
+  height: 20px;
+  background: url("http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/music.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+  padding-left: 4px;
+ }
+
+.recording, .mixing, .master{
+font-size: 20px;
+text-align: center;
+margin-top: 65px;
+color:#575757;
+}
+
+.gearListing{
+font-size: 20px;
+text-align: center;
+padding-top: 12px;
+color:#575757;
+}
+
+.recordingPara, .mixingPara, .masterPara{
+font-size:20px;
+padding-left:109px;
+padding-right:109px;
+padding-top:80px;
+color:#575757;
+line-height: 26px;
+text-align:justify;
+padding-bottom: 25px;
+}
+
+.discImages{
+width: 50.7%;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 4px;
+margin-left: 0px;
+}
+
+.triangleImage{
+padding-bottom: 4px;
+}
+
+.albumImages{
+width: 49%;
+padding-left: 4px;
+background-color: #a79496;
+margin-top: 4px;
+float: right;
+padding-right: 8px;
+}
+
+/******************************
+ Mixing Section
+*******************************/
+.TableFontsize{
+font-size: 0.89em;
+}
+
+ul.custom
+ {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.custom li.aa:before { content: "1) "; padding-right: 20px; }
+
+.mixingbtn.custom {
+width: 179px;
+height: 62px;
+display:inline-block;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+line-height: 1;
+position: relative;
+text-decoration: none;
+text-align: center;
+font-size: 1em;
+background-color: #101d26;
+color: white;
+padding-right:0px;
+padding-left:0px;
+padding-top: 24px;
+font-size: 0.625em;}
+  .mixingbtn.custom:hover, .mixingbtn.custom:focus {
+    background-color: #2b4c63; }
+  .mixingbtn.custom:hover, .mixingbtn.custom:focus {
+    color: #FFFFFF; }
+	
+.arrow.mixingbtn.custom {
+	 background-color: #2393dd;
+     width: 179px;
+	 height: 62px;
+	 background-image: url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/downbtn.jpg);
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 text-indent: -9999px;
+}
+
+/******************************
+Contact Section
+*******************************/
+.Allfields{
+float:right;
+font-size:12px;
+margin-top:5px;
+color:#575757;
+padding-right: 20px;
+}
+
+.contact.contactbtn.custom {
+background-color: #2393dd;
+float:right;
+margin-top: 10px;
+}
+.contactbtn.custom {
+width: 179px;
+height: 62px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+ .smile{
+  width: 31px; 
+  height: 20px;
+  background: url("http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/final/img/smiley.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  text-indent: -9999px;
+ }
+ 
+ .social{
+ font-size: 20px;
+ text-align: center;
+ margin-top: 106px;
+ margin-bottom: 15px;
+ color: #575757;
+}
+
+.TopContact {
+color: #FFFFFF;
+line-height: 18px;
+font-size: 16px;
+margin-left: 3px;
+width: 71%;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 4px;
+}
+
+.ContactName{
+min-height: 82px;
+background-color: #a79496;
+margin-bottom: 5px;
+}
+
+.ContactEmail{
+min-height: 82px;
+background-color: #a79496;
+}
+
+.ContactService{
+min-height: 82px;
+background-color: #a79496;
+}
+ 
+ .outerarrowContact {
+/*	background-color: #2393dd;
+*/	min-height: 169px;
+/*	margin-top: 4px;
+*/	position: relative;
+	text-align: center;
+}
+
+.contactTitle {
+	background-color:#575757;
+	margin-top: 4px;
+	/*width: 97%;
+	margin-left: 15px;*/
+	text-align:center;
+	color:#FFFFFF;
+	margin-bottom: 0px;
+font-size: 18px;
+max-width:169px;
+width: 17%;
+}
+
+
+.ContactService {
+background-color:#a79496;
+margin-top: 4px;
+color:#FFFFFF;
+margin-bottom: 0px;
+font-size: 16px;
+max-width: 827px;
+width: 100%;
+}
+.serviceTitle p {
+line-height:83px;
+}
+
+.contactTitle p {
+line-height:83px;
+}
+
+.innerSend {
+	color:#ffffff;
+}
+.outerSendContact {
+min-height: 169px;
+min-width: 85px;
+text-align: center;
+}
+
+input.NameContact, input.EmailContact{
+width: 70%;
+height: 4.2em;
+margin-left: 10px;
+margin-top: 10px;
+display: inline;
+}
+
+input.ServicesContact{
+width: 62.3%;
+height: 4.2em;
+margin-left: -4px;
+margin-top: 10px;
+display: inline;
+}
+
+.ContactSubmit{
+background-color:#2393dd;
+color:#FFFFFF;
+border: none;
+}
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: none; /* 2 */
+
+}
+
+.bluemessSendbtn{
+width: 11.3%;
+background-color: #2393dd;
+margin-top: 4px;
+margin-left: 4px;
+}
+ /******************************
+Footer Section
+*******************************/
+.footerStyle{
+background-color:#1b1b1b;
+color:#7e7d7b;
+font-size:12px;
+}
+
+.footerSoundboard{
+padding-top: 105px;
+}
+
+
+
+/******************************
+ Media only max-width 768px
+*******************************/
+ @media only screen and (max-width: 768px) {
+/*.homecontent {
+width: none;
+margin-left: none;
+margin-right: none;
+max-width: 0em;
+padding-top: 0px;
+}*/
+
+[class*="block-grid-"] {
+display: block;
+padding: 0;
+margin: 0 0em;
+}
+.LargeAlbumImg {
+max-width: 104%;
+}
+
+.small-block-grid-3 > li {
+width: 33.33%;
+padding: 0 0.6em 0.6em;
+}
+
+.discbtn.custom {
+width: 100%;
+height: 62px;
+margin: 0em;
+}
+
+.arrow.discbtn.custom {
+width: 100%;
+}
+
+.albumImagesSmall {
+width: 100%;
+padding-left: 0px;
+background-color: #a79496;
+float: right;
+padding-right: 8px;
+padding-top: 8px;
+}
+
+.discImages {
+width: 49.7%;
+}
+
+.TableFontSize{
+font-size: 0.89;
+}
+
+html,
+  body{
+    width:100%;
+  }
+
+.pagedivider {
+margin: -19px;
+}
+
+.bluemessAbout {
+background-color: #a79496;
+padding: 14px;
+color: #FFFFFF;
+line-height: 18px;
+font-size: 16px;
+min-height: 338px;
+margin-left: 0px;
+width: 100%;
+}
+.bluemessTonyTitle {
+background-color: #575757;
+margin-top: 4px;
+text-align: center;
+color: #FFFFFF;
+width: 100%;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.bluemessTonyTitle p {
+margin-bottom: 0px;
+font-size: 14px;
+line-height:16px;
+}
+.bluemessServices {
+margin-top: 4px;
+padding-left: 3px;
+padding-right: 4px;
+}
+/*.containerContent {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+max-width: 62.5em;
+padding-top: 40px;
+}*/
+
+.recordingPara, .mixingPara, .masterPara {
+padding-left: 10px;
+padding-right: 10px;
+font-size: 18px;
+line-height: 24px;
+}
+
+.bluemessAbout p {
+line-height: 1.5;
+font-size: 1.1em;
+}
+}
+
+/******************************
+ Media only max-width 780px
+*******************************/
+ @media only screen and (max-width: 780px) {
+
+#navigation li a {
+width: auto;
+height: 100%;
+display: block;
+overflow: hidden;
+margin-right: 5px;
+color: #c0c2c1;
+font-size: 1.1em;
+font-weight: 400;
+letter-spacing: 0em;
+text-decoration: none;
+font-style: normal;
+text-transform: uppercase;
+font-family: 'brandon-grotesque', 'proxima-nova', Helvetica, Arial, sans-serif;
+line-height: 1.2em;
+}
+}
