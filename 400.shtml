@@ -1,7 +1,42 @@
-<html><head><title>400 Bad Request</title></head>
+<html>
+<head>
+<title>400 Bad Request</title>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/mainfile.css">
+</head>
 <body bgcolor=white>
 <h1>400 Bad Request</h1>
 
 Invalid request.
-
+<div class="grid">
+  <div class="col-1-4" style="background-color:#333">
+     <article class="module">
+        stuff
+     </article>
+     <article class="module">
+        stuff
+     </article>
+  </div>
+  <div class="col-1-4" style="background-color:#fff">
+    <aside class="module">
+       Sidebar stuff. Sub modules?
+    </aside>
+  </div>
+  <div class="col-1-4" style="background-color:#ccc">
+    <aside class="module">
+       Sidebar stuff. Sub modules?
+    </aside>
+  </div>
+  <div class="col-1-4" style="background-color:#333">
+     <article class="module">
+        stuff
+     </article>
+     <article class="module">
+        stuff
+     </article>
+  </div>
+</div>
 </body></html>

@@ -90,12 +90,7 @@ position: relative;
 z-index: 8;
 text-align: center;
 }
-.slide {
-	background-attachment: fixed;
-	width:100%;
-	height:100%;
-	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
-}
+
 
 /******************************
 Backgrounds 

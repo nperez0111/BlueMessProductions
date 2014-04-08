@@ -73,5 +73,7 @@ jQuery(document).ready(function ($) {
 
     });
 
-
+	$('.col-1-4').click(function(){
+	
+	})
 });
