@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
 
-
+/*
     //initialise Stellar.js
     $(window).stellar();
 
@@ -47,7 +47,7 @@ jQuery(document).ready(function ($) {
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
         }, 2000, 'easeInOutQuint');
     }*/
-	
+	/*
 	function goToByScroll(dataslide) {
 	var pad = $('nav:visible').outerHeight(),
 		top = $('.slide[data-slide="' + dataslide + '"]').offset().top
@@ -71,9 +71,19 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
 
-    });
+    });*/
 
-	$('.col-1-4').click(function(){
-	
+	$('.discog').click(function(){
+		if($(this).css("left")=="0px"){
+			$(this).animate({
+				'left' : "-200px"
+			});
+			
+		}
+	else {
+	$(this).animate({
+    'left' : "0px"
+	});
+	}
 	})
 });

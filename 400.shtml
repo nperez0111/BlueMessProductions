@@ -12,12 +12,10 @@
 
 Invalid request.
 <div class="grid">
-  <div class="col-1-4" style="background-color:#333">
+  <div class="col-1-4">
      <article class="module">
-        stuff
-     </article>
-     <article class="module">
-        stuff
+        <img src="img/Amely.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
      </article>
   </div>
   <div class="col-1-4" style="background-color:#fff">
