@@ -18,22 +18,46 @@ Invalid request.
 		<img src="img/clicked.png" alt="" id="" class="clicked"/>
      </article>
   </div>
-  <div class="col-1-4" style="background-color:#fff">
-    <aside class="module">
-       Sidebar stuff. Sub modules?
-    </aside>
-  </div>
-  <div class="col-1-4" style="background-color:#ccc">
-    <aside class="module">
-       Sidebar stuff. Sub modules?
-    </aside>
-  </div>
-  <div class="col-1-4" style="background-color:#333">
-     <article class="module">
-        stuff
+  <div class="col-1-4">
+    <article class="module">
+        <img src="img/AvenidaZero.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
      </article>
+  </div>
+  <div class="col-1-4">
+    <article class="module">
+        <img src="img/AVictimATarget.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
+     </article>
+  </div>
+  <div class="col-1-4">
      <article class="module">
-        stuff
+        <img src="img/YourFavoriteFranchise_large.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
+     </article>
+  </div>
+  <div class="col-1-4">
+     <article class="module">
+        <img src="img/WeAreOne.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
+     </article>
+  </div>
+  <div class="col-1-4">
+    <article class="module">
+        <img src="img/TAOFtransitions.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
+     </article>
+  </div>
+  <div class="col-1-4">
+    <article class="module">
+        <img src="img/GoRadio_large.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
+     </article>
+  </div>
+  <div class="col-1-4">
+     <article class="module">
+        <img src="img/FourSavant.jpg" alt="" id="" class="discog"/>
+		<img src="img/clicked.png" alt="" id="" class="clicked"/>
      </article>
   </div>
 </div>

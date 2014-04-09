@@ -68,7 +68,7 @@ height:1000px;
 }
 	
 	
-	$pad: 20px;
+	$pad: 10px;
 	
 	.grid {
 	  background: white;
@@ -91,12 +91,16 @@ height:1000px;
 	&.clicked{
 		position:absolute;
 		z-index:19;
-		width:200px;
+		height:100%;
+		width:auto;
+		top:0px;
 		right:5px;
 	}
 	&.discog{
 		position:relative;
 		z-index:21;
+		left:0px;
+		width:100%;
 	}
 	}
 	}
@@ -104,10 +108,8 @@ height:1000px;
 	  float: left;
 	  left:0px;
 	  text-align:center;
-	  position:relative;
-	  .grid &:last-of-type {
-	    padding-right: 0;
-	  }
+	  position:relative;padding-right:1.15%;padding-left:1.15%;margin-bottom:2.3%;
+	  
 	}
 	.col-2-3 {
 	  width: 66.66%;

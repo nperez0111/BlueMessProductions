@@ -72,18 +72,52 @@ jQuery(document).ready(function ($) {
         goToByScroll(dataslide);
 
     });*/
-
+var start=false;
+var vall="-"+$('.clicked').first().width()+"px";
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
+			if(start){
+				$('.discog').each(function(){
+					$(this).animate({
+    					'left' : "0px"
+					});
+				});
+			}
+		start=true;
+		
 			$(this).animate({
-				'left' : "-200px"
+				'left' : vall
+			});
+		}
+		
+	else {
+		$('.discog').each(function(){
+			$(this).animate({
+   				 'left' : "0px"
+			});
+		});
+	}
+	
+	});
+	$('.clicked').click(function(){
+		if($(this).prev().css("left")=="0px"){
+			$('.discog').each(function(){
+		$(this).animate({
+    'left' : "0px"
+	});
+		});
+			$(this).animate({
+				'left' : vall
 			});
 			
 		}
 	else {
-	$(this).animate({
-    'left' : "0px"
-	});
+		$('.discog').each(function(){
+			$(this).animate({
+				 'left' : "0px"
+				});
+		});
 	}
-	})
+	
+	});
 });
