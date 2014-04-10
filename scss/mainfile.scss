@@ -1,21 +1,20 @@
 @charset "utf-8";
-*{box-sizing:border-box;}
+*{box-sizing:border-box;padding:0px;margin:0px;}
 
+body>div, body>nav{max-width:960px;margin:0 auto;}
 #main_nav {
 	min-width: 1024px;
 	position: fixed;
 	background-color: #FFFFFF;
-	height: 58px;
+	height: 70px;
 	width: 100%;
 	left: 0px;
 	top: 0px;
 }
 
-
-
 #navigation li {
 	width:15.934065934065934065934065934066%;
-	height:60px;
+	height:70px;
 	float:left;
 	display:block;
 	position:relative;
@@ -25,7 +24,7 @@
 	height:100%;
 	display:block;
 	overflow:hidden;
-	padding-top:10px;
+	padding-top:20px;
 	color:#333;
 	/*margin-right:5px;	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -43,19 +42,26 @@
 
 }
 
-
 &:nth-child(3){
-background-color:#333;
 width:34.065934065934065934065934065934%;
+z-index:20;
+position:relative;top:-10px;height:100px;
  a.mp{
- background-color:black;
+ padding:0px;
+ background-image:url('../img/mainlogo.png');
+ width:100%;
+ background-size:cover;
+ background-repeat:no-repeat;
  }
 }
 }
 	nav.topbar{
 	width:100%;
-	height:60px;
-	margin:0 auto;
+	min-height:100px;
+	
+	padding-top:20px;
+	background-color:#FFF;
+	z-index:8;
 	}
 .slide {
 	background-attachment: fixed;
@@ -63,15 +69,14 @@ width:34.065934065934065934065934065934%;
 	height:600px;
 	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
 }
-.firsty{
-height:1000px;
-}
-	
+#mbg{
+width:100%;
+background-color:#0a172e; 
+}	
 	
 	$pad: 10px;
 	
 	.grid {
-	  background: white;
 	  margin: 0 auto $pad auto;
 	  width:90%;
 	  max-width:980px;
@@ -107,7 +112,6 @@ height:1000px;
 	[class*='col-'] {
 	  float: left;
 	  left:0px;
-	  text-align:center;
 	  position:relative;padding-right:1.15%;padding-left:1.15%;margin-bottom:2.3%;
 	  
 	}
@@ -134,3 +138,12 @@ height:1000px;
 	    padding-right: $pad;
 	  }
 	}
+.para{
+color:#FFF;
+}
+.about{
+color:#FFF;
+}
+#bluemesslogo{
+width:100%;
+}

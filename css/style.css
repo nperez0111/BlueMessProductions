@@ -90,73 +90,7 @@ position: relative;
 z-index: 8;
 text-align: center;
 }
-
-
-/******************************
-Backgrounds 
-*******************************/
-
-#darkbg {
-	background-image:url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/dark_gray.jpg);
-	background-repeat:repeat;
-}
-#lightbg {
-	background-image:url(http://media.miamiherald.com/static/ads/share_mi_creatives/personal/BluemessStudio/Website/img/light_gray.jpg);
-	background-repeat:repeat;
-}
-/******************************
-Bluemess Section
-*******************************/
-.bluemessAbout {
-background-color: #a79496;
-padding: 14px;
-color: #FFFFFF;
-line-height: 18px;
-font-size: 16px;
-min-height: 338px;
-margin-left: 3px;
-width: 71%;
-padding-right: 0px;
-padding-left: 0px;
-margin-top: 4px;
-}
-.bluemessDownBtn {
-}
-.bluemessRow {
-/*max-width:921px;*/
-}
-.bluemessAbout p {
-	font-family: inherit;
-	font-weight: normal;
-	font-size: 1em;
-	line-height: 1.2;
-	margin-bottom: 1.25em;
-	text-rendering: optimizeLegibility;
-	text-align: justify;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-.bluemessTonyImg {
-width: 17%;
-padding-top: 4px;
-padding-left: 0px;
-padding-right: 0px;
-}
-
-.bluemessTonyTitle {
-	background-color:#575757;
-	margin-top: 4px;
-	/*width: 97%;
-	margin-left: 15px;*/
-	text-align:center;
-	color:#FFFFFF;
-}
-.bluemessTonyTitle p {
-margin-bottom: 0px;
-line-height: 3;
-font-size: 18px;
-}
+/*****/
 .tablehead {
 	background: #2393dd;
 	font-weight: bold;
