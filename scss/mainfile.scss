@@ -1,5 +1,5 @@
 @charset "utf-8";
-*{box-sizing:border-box;padding:0px;margin:0px;}
+*{box-sizing:border-box;padding:0px;margin:0px;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
 
 body>div, body>nav{max-width:960px;margin:0 auto;}
 #main_nav {
@@ -11,7 +11,77 @@ body>div, body>nav{max-width:960px;margin:0 auto;}
 	left: 0px;
 	top: 0px;
 }
+@font-face {
+    font-family: 'brandon_grotesquebold';
+    src: url('brandon_bld-webfont.eot');
+    src: url('brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_bld-webfont.woff') format('woff'),
+         url('brandon_bld-webfont.ttf') format('truetype'),
+         url('brandon_bld-webfont.svg#brandon_grotesquebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('brandon_blk-webfont.eot');
+    src: url('brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_blk-webfont.woff') format('woff'),
+         url('brandon_blk-webfont.ttf') format('truetype'),
+         url('brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('brandon_light-webfont.eot');
+    src: url('brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_light-webfont.woff') format('woff'),
+         url('brandon_light-webfont.ttf') format('truetype'),
+         url('brandon_light-webfont.svg#brandon_grotesquelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquethin';
+    src: url('brandon_thin-webfont.eot');
+    src: url('brandon_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_thin-webfont.woff') format('woff'),
+         url('brandon_thin-webfont.ttf') format('truetype'),
+         url('brandon_thin-webfont.svg#brandon_grotesquethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('brandon_reg-webfont.eot');
+    src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_reg-webfont.woff') format('woff'),
+         url('brandon_reg-webfont.ttf') format('truetype'),
+         url('brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 #navigation li {
 	width:15.934065934065934065934065934066%;
 	height:70px;
@@ -24,21 +94,22 @@ body>div, body>nav{max-width:960px;margin:0 auto;}
 	height:100%;
 	display:block;
 	overflow:hidden;
-	padding-top:20px;
+	padding-top:27px;
 	color:#333;
 	/*margin-right:5px;	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;*/
 	/* font */
 	
-	font-size:1em;
-	font-weight: 400;
+	font-size:0.75em;
+	font-weight:300;
 	/*	letter-spacing: 0.1em;*/
 	text-decoration:none;
 	font-style:normal;
 	text-transform:uppercase;
-	font-family:'brandon-grotesque', 'proxima-nova', Helvetica, Arial, sans-serif;
-	line-height:1.2em;
+	font-family:'brandon_grotesquebold', Helvetica, Arial, sans-serif;
+	line-height:1em;
+	letter-spacing: 0.0625em;
 
 }
 
@@ -68,12 +139,23 @@ position:relative;top:-10px;height:100px;
 	width:100%;
 	height:600px;
 	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
-}
+
 #mbg{
 width:100%;
 background-color:#0a172e; 
+
 }	
-	
+}
+.titl{
+font-size:2.5em;
+text-transform:capitalize;
+position: absolute;
+left:10%;
+top:33.333%;
+color:#FFF;
+font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+.titlfix{top:-2.75em;color:#000;}	
 	$pad: 10px;
 	
 	.grid {
@@ -123,6 +205,7 @@ background-color:#0a172e;
 	}
 	.col-1-2 {
 	  width: 50%;
+	  
 	}
 	.col-1-4 {
 	  width: 25%;
@@ -140,6 +223,8 @@ background-color:#0a172e;
 	}
 .para{
 color:#FFF;
+font-size:1.1em;
+	  font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 .about{
 color:#FFF;
