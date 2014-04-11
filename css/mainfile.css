@@ -1,1 +1,370 @@
-@charset "utf-8";*{box-sizing:border-box;padding:0px;margin:0px;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif}body>div,body>nav{max-width:960px;margin:0 auto}#main_nav{min-width:1024px;position:fixed;background-color:#FFFFFF;height:70px;width:100%;left:0px;top:0px}@font-face{font-family:'brandon_grotesquebold';src:url("brandon_bld-webfont.eot");src:url("brandon_bld-webfont.eot?#iefix") format("embedded-opentype"),url("brandon_bld-webfont.woff") format("woff"),url("brandon_bld-webfont.ttf") format("truetype"),url("brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'brandon_grotesquelight';src:url("brandon_light-webfont.eot");src:url("brandon_light-webfont.eot?#iefix") format("embedded-opentype"),url("brandon_light-webfont.woff") format("woff"),url("brandon_light-webfont.ttf") format("truetype"),url("brandon_light-webfont.svg#brandon_grotesquelight") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'brandon_grotesquethin';src:url("brandon_thin-webfont.eot");src:url("brandon_thin-webfont.eot?#iefix") format("embedded-opentype"),url("brandon_thin-webfont.woff") format("woff"),url("brandon_thin-webfont.ttf") format("truetype"),url("brandon_thin-webfont.svg#brandon_grotesquethin") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'brandon_grotesquemedium';src:url("brandon_med-webfont.eot");src:url("brandon_med-webfont.eot?#iefix") format("embedded-opentype"),url("brandon_med-webfont.woff") format("woff"),url("brandon_med-webfont.ttf") format("truetype"),url("brandon_med-webfont.svg#brandon_grotesquemedium") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'brandon_grotesque_regularRg';src:url("brandon_reg-webfont.eot");src:url("brandon_reg-webfont.eot?#iefix") format("embedded-opentype"),url("brandon_reg-webfont.woff") format("woff"),url("brandon_reg-webfont.ttf") format("truetype"),url("brandon_reg-webfont.svg#brandon_grotesque_regularRg") format("svg");font-weight:normal;font-style:normal}#navigation li{width:15.934065934065934065934065934066%;height:70px;float:left;display:block;position:relative;text-align:center}#navigation li a{width:auto;height:100%;display:block;overflow:hidden;padding-top:27px;color:#333;font-size:0.75em;font-weight:300;text-decoration:none;font-style:normal;text-transform:uppercase;font-family:'brandon_grotesquebold', Helvetica, Arial, sans-serif;line-height:1em;letter-spacing:0.0625em}#navigation li:nth-child(3){width:34.065934065934065934065934065934%;z-index:20;position:relative;top:-10px;height:100px}#navigation li:nth-child(3) a.mp{padding:0px;background-image:url("../img/mainlogo.png");width:100%;background-size:cover;background-repeat:no-repeat}nav.topbar{width:100%;min-height:100px;padding-top:20px;background-color:#FFF;z-index:8}.slide{width:100%;height:600px;display:block;position:relative}.slide #mbg{width:100%;background-color:#0a172e}.titl{font-size:2.5em;text-transform:capitalize;position:absolute;left:10%;top:33.333%;color:#FFF;font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif}.titlfix{top:-2.75em;color:#000}.grid{margin:0 auto 10px auto;width:90%;max-width:980px}.grid:after{content:"";display:table;clear:both}.module{left:0px;position:relative;width:100%}.module img{z-index:20}.module img.clicked{position:absolute;z-index:19;width:100%;top:0px;right:5px}.module img.discog{position:relative;z-index:21;left:0px;width:100%}[class*='col-']{float:left;left:0px;position:relative;padding-right:1.15%;padding-left:1.15%;margin-bottom:2.3%}.col-2-3{width:66.66%}.col-1-3{width:33.33%}.col-1-2{width:50%}.col-1-4{width:25%}.col-1-8{width:12.5%}.grid-pad{padding:10px 0 10px 10px}.grid-pad [class*='col-']:last-of-type{padding-right:10px}.para{color:#FFF;font-size:1.1em;font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif}.about{color:#FFF}#bluemesslogo{width:100%}.services{background-image:url(../img/services.png);background-size:contain;background-repeat:no-repeat}.services .server{top:70px;left:15%}.services #serv{position:relative;top:130px;left:15%}.services #serv .servi{display:block;color:#fff;font-size:1.35em;margin-top:.5em;letter-spacing:4px;text-transform:uppercase;font-family:"brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif}.contact{margin-top:0px}.contact .titlfix{top:2em}.contact .grid .col-1-2:first-child{padding-top:150px;padding-left:50px;padding-right:60px}.contact .grid .col-1-2 form label{display:block;position:relative;margin-top:20px}.contact .grid .col-1-2 form label:first-child{margin-top:80px}.contact .grid .col-1-2 form input{margin-top:5px;display:block;width:100%}.contact .grid .col-1-2 form textarea{margin-top:5px;width:100%;display:block}.contact .grid .col-1-2 form input[type=submit]{float:right;width:25%;background-color:#0a172e;padding-left:7px;padding-right:7px;color:#FFF}#footer{width:100%;margin:0 auto;background-color:#0a172e}#footer .grid .col-1-2{padding-top:15px}#footer .grid .col-1-2 span{font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;font-size:12px;display:block;text-transform:uppercase;color:#fff}#footer .grid .col-1-2 span:first-child{margin-top:10px}#footer .grid .col-1-2 img{height:50px;width:auto;float:right;position:relative;right:-10px}
+@charset "utf-8";
+/* line 2, ../scss/mainfile.scss */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* line 4, ../scss/mainfile.scss */
+body > div, body > nav {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* line 5, ../scss/mainfile.scss */
+#main_nav {
+  min-width: 1024px;
+  position: fixed;
+  background-color: #FFFFFF;
+  height: 70px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url("brandon_bld-webfont.eot");
+  src: url("brandon_bld-webfont.eot?#iefix") format("embedded-opentype"), url("brandon_bld-webfont.woff") format("woff"), url("brandon_bld-webfont.ttf") format("truetype"), url("brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquelight';
+  src: url("brandon_light-webfont.eot");
+  src: url("brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("brandon_light-webfont.woff") format("woff"), url("brandon_light-webfont.ttf") format("truetype"), url("brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquethin';
+  src: url("brandon_thin-webfont.eot");
+  src: url("brandon_thin-webfont.eot?#iefix") format("embedded-opentype"), url("brandon_thin-webfont.woff") format("woff"), url("brandon_thin-webfont.ttf") format("truetype"), url("brandon_thin-webfont.svg#brandon_grotesquethin") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url("brandon_med-webfont.eot");
+  src: url("brandon_med-webfont.eot?#iefix") format("embedded-opentype"), url("brandon_med-webfont.woff") format("woff"), url("brandon_med-webfont.ttf") format("truetype"), url("brandon_med-webfont.svg#brandon_grotesquemedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesque_regularRg';
+  src: url("brandon_reg-webfont.eot");
+  src: url("brandon_reg-webfont.eot?#iefix") format("embedded-opentype"), url("brandon_reg-webfont.woff") format("woff"), url("brandon_reg-webfont.ttf") format("truetype"), url("brandon_reg-webfont.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 79, ../scss/mainfile.scss */
+#navigation li {
+  width: 15.934065934065934065934065934066%;
+  height: 70px;
+  float: left;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+/* line 86, ../scss/mainfile.scss */
+#navigation li a {
+  width: auto;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  padding-top: 27px;
+  color: #333;
+  	/*margin-right:5px;	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;*/
+  /* font */
+  font-size: 0.75em;
+  font-weight: 300;
+  /*	letter-spacing: 0.1em;*/
+  text-decoration: none;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: 'brandon_grotesquebold', Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  letter-spacing: 0.0625em;
+}
+/* line 110, ../scss/mainfile.scss */
+#navigation li:nth-child(3) {
+  width: 34.065934065934065934065934065934%;
+  z-index: 20;
+  position: relative;
+  top: -10px;
+  height: 100px;
+}
+/* line 114, ../scss/mainfile.scss */
+#navigation li:nth-child(3) a.mp {
+  padding: 0px;
+  background-image: url("../img/mainlogo.png");
+  width: 100%;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 124, ../scss/mainfile.scss */
+nav.topbar {
+  width: 100%;
+  min-height: 100px;
+  padding-top: 20px;
+  background-color: #FFF;
+  z-index: 8;
+}
+
+/* line 132, ../scss/mainfile.scss */
+.slide {
+  width: 100%;
+  height: 600px;
+  display: block;
+  position: relative;
+  /*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
+}
+/* line 138, ../scss/mainfile.scss */
+.slide:nth-child(3) {
+  background-color: #FFF;
+}
+/* line 139, ../scss/mainfile.scss */
+.slide #mbg {
+  width: 100%;
+  background-color: #0a172e;
+}
+
+/* line 145, ../scss/mainfile.scss */
+.titl {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  position: absolute;
+  left: 10%;
+  top: 33.333%;
+  color: #FFF;
+  font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* line 154, ../scss/mainfile.scss */
+.titlfix {
+  top: -2.75em;
+  color: #000;
+}
+
+/* line 155, ../scss/mainfile.scss */
+.repos {
+  top: 0px;
+}
+
+/* line 160, ../scss/mainfile.scss */
+.grid {
+  margin: 0 auto 10px auto;
+  width: 90%;
+  max-width: 980px;
+}
+/* line 164, ../scss/mainfile.scss */
+.grid:after {
+  /* Or @extend clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 171, ../scss/mainfile.scss */
+.module {
+  left: 0px;
+  position: relative;
+  width: 100%;
+}
+/* line 175, ../scss/mainfile.scss */
+.module img {
+  z-index: 20;
+}
+/* line 177, ../scss/mainfile.scss */
+.module img.clicked {
+  position: absolute;
+  z-index: 19;
+  width: 100%;
+  top: 0px;
+  right: 5px;
+}
+/* line 184, ../scss/mainfile.scss */
+.module img.discog {
+  position: relative;
+  z-index: 21;
+  left: 0px;
+  width: 100%;
+}
+
+/* line 192, ../scss/mainfile.scss */
+[class*='col-'] {
+  float: left;
+  left: 0px;
+  position: relative;
+  padding-right: 1.15%;
+  padding-left: 1.15%;
+  margin-bottom: 2.3%;
+}
+
+/* line 198, ../scss/mainfile.scss */
+.col-2-3 {
+  width: 66.66%;
+}
+
+/* line 201, ../scss/mainfile.scss */
+.col-1-3 {
+  width: 33.33%;
+}
+
+/* line 204, ../scss/mainfile.scss */
+.col-1-2 {
+  width: 50%;
+}
+
+/* line 208, ../scss/mainfile.scss */
+.col-1-4 {
+  width: 25%;
+}
+
+/* line 211, ../scss/mainfile.scss */
+.col-1-8 {
+  width: 12.5%;
+}
+
+/* Opt-in outside padding */
+/* line 216, ../scss/mainfile.scss */
+.grid-pad {
+  padding: 10px 0 10px 10px;
+}
+/* line 218, ../scss/mainfile.scss */
+.grid-pad [class*='col-']:last-of-type {
+  padding-right: 10px;
+}
+
+/* line 222, ../scss/mainfile.scss */
+.para {
+  color: #FFF;
+  font-size: 1.1em;
+  font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* line 227, ../scss/mainfile.scss */
+.about {
+  color: #FFF;
+}
+
+/* line 230, ../scss/mainfile.scss */
+#bluemesslogo {
+  width: 100%;
+}
+
+/* line 233, ../scss/mainfile.scss */
+.services {
+  background-image: url(../img/services.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* line 237, ../scss/mainfile.scss */
+.services .server {
+  top: 70px;
+  left: 15%;
+}
+/* line 241, ../scss/mainfile.scss */
+.services #serv {
+  position: relative;
+  top: 130px;
+  left: 15%;
+}
+/* line 247, ../scss/mainfile.scss */
+.services #serv .servi {
+  display: block;
+  color: #fff;
+  font-size: 1.35em;
+  margin-top: .5em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+/* line 259, ../scss/mainfile.scss */
+.contact {
+  margin-top: 0px;
+}
+/* line 261, ../scss/mainfile.scss */
+.contact .titlfix {
+  top: 2em;
+}
+/* line 264, ../scss/mainfile.scss */
+.contact .grid .col-1-2:first-child {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+/* line 268, ../scss/mainfile.scss */
+.contact .grid .col-1-2 form label {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+/* line 272, ../scss/mainfile.scss */
+.contact .grid .col-1-2 form label:first-child {
+  margin-top: 80px;
+}
+/* line 276, ../scss/mainfile.scss */
+.contact .grid .col-1-2 form input {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+}
+/* line 281, ../scss/mainfile.scss */
+.contact .grid .col-1-2 form textarea {
+  margin-top: 5px;
+  width: 100%;
+  display: block;
+}
+/* line 286, ../scss/mainfile.scss */
+.contact .grid .col-1-2 form input[type=submit] {
+  float: right;
+  width: 25%;
+  background-color: #0a172e;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #FFF;
+}
+
+/* line 296, ../scss/mainfile.scss */
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #0a172e;
+}
+/* line 301, ../scss/mainfile.scss */
+#footer .grid .col-1-2 {
+  padding-top: 15px;
+}
+/* line 302, ../scss/mainfile.scss */
+#footer .grid .col-1-2 span {
+  font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 12px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 305, ../scss/mainfile.scss */
+#footer .grid .col-1-2 span:first-child {
+  margin-top: 10px;
+}
+/* line 307, ../scss/mainfile.scss */
+#footer .grid .col-1-2 img {
+  height: 50px;
+  width: auto;
+  float: right;
+  position: relative;
+  right: -10px;
+}
