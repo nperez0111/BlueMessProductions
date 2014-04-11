@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 	
 	
 var start=false;
-var vall="-"+$('.clicked').first().width()+"px";
+var vall="-"+($('.clicked').first().width()-30)+"px";
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
 			if(start){

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>Bluemess Productions</title>
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 <link rel="stylesheet" type="text/css" href="css/mainfile.css">
 <script src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/jquery.main.js"></script>
@@ -109,106 +109,66 @@ Feel free to look around and get a better understanding of exactly what I can of
 </div>
 <!-- End DISCOG -->
 
-<div class="slide titlfix" data-slide="4">
-<span class="titl titlfix">Services</span>
+<div class="slide services" data-slide="4">
+	<span class="titl server">Services</span>
+<div id="serv">
+	<span class="servi">Recording</span>
+	<span class="servi">Mixing</span>
+	<span class="servi">Mastering</span>
+	<span class="servi">Arrangement</span>
+	<span class="servi">Song Writing</span>
+	<span class="servi">Artist Management</span>
+	<span class="servi">Vocal Tuning</span>
+	<span class="servi">Drum Editing</span>
+	<span class="servi">Voice Overs</span>
+	<span class="servi">Producing</span>
+    </div>
 </div>
 <!-- End SERVICES -->
 
 <!-- End MASTERING -->
 <!-- CONTACT -->
-<div class="slide" data-slide="5">
+<div class="slide contact" data-slide="5">
 <!--    CONTACT FORM  -->
-<form data-abide action="mail.php" method="post" class="contact-form">
-  <div class="row bluemessRow">
-    <div class="12-columns">
-      <div class="row bluemessRow">
-        <div class="12-columns bluemessTonyTitle">
-          <span class="titl titlfix">Contact</span>
-        </div>
-        <div class="ContactStyle">
-          <label class="ContactLabel">Name</label>
-          <input type="text" required pattern="[a-zA-Z]+" class="ContactHeight required" name="name" id="name">
-          <small class="error">Name is required.</small> </div>
-        <div class="ContactStyle">
-          <label class="ContactLabel">Email</label>
-          <input type="email" required class="ContactHeight required" name="mail" id="email">
-          <small class="error">An email address is required.</small> </div>
-        <div class="ContactStyle">
-          <label class="ContactLabel">Services</label>
-          <input type="text" required pattern="[a-zA-Z]+" class="ContactHeight required" name="services" id="services">
-          <small class="error">Services is required.</small> </div>
-        <div class="row bluemessRow"> <span class="Allfields">All fields required.</span> </div>
-      </div>
-      <button type="submit" class="custom contactbtn contact" value="Send Message" id="my-submit">Submit</button>
-            <div data-alert class="alert-box success radius error-legend">
-  All fields are required.
-</div>
-  </div>
-  </div>
-    </div>
+<span class="titl titlfix">Contact</span>
+<div class="grid">
+<div class="col-1-2">If you have any questions or want to start your project, I’d love to hear from you.</div>
+<div class="col-1-2">
+<form data-abide action="mail.php" method="post">
+          
+      
+          <label for="name">Name</label>
+          <input type="text" required pattern="[a-zA-Z]+" name="name" id="name">
+          
+        
+          <label for="email">Email</label>
+          <input type="email" name="mail" id="email">
+         
+          <label for="services">Message</label>
+          <textarea type="text" required pattern="[a-zA-Z]+" rows="8" name="services" id="services"></textarea>
 
-</form>
+      <input type="submit" value="Send" id="my-submit"></input>
+
+
+</form></div>
+</div>
+</div>
 <!--End CONTACT-->
 <!-- Footer -->
-<div id="lightbg" class="footerSoundboard">
-  <div class="row bluemessRow">
-    <div class="soundboard"><img src="img/soundboard.png" alt="soundboard"></div>
-  </div>
-  <div  data-magellan-arrival='footer' id="footer" class="footerStyle">
-    <div class="row bluemessRow">
-      <div class="large-12 columns">
-        <p style="line-height: 4em; text-align:center;">&copy; 2013 Bluemess Productions. All Rights Reserved. | Site by <a href="http://www.britefulmedia.com" target="_blank">Briteful</a></p>
-      </div>
+<div id="footer">
+<div class="grid">
+	<div class="col-1-2">
+    	<span>&copy; 2013 BlueMess Productions.</span>
+        <span>All Rights Reserved.</span>
     </div>
-  </div>
+    <div class="col-1-2">
+    <img src="img/footer_logo.png"alt="Footer Logo BlueMess Productions"/>
+    </div>
+</div>
+
 </div>
 <!-- End Footer -->
-<!-- Reveal Modals begin -->
-<div id="GoradioModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/9997572&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="FranModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103414378&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="WeAreOneModal" class="reveal-modal">
-  <p>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71259233&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
-  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="ArmsModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71255663&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="AvatModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84835525&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="AmelyModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/6294256&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="CoyoteModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/36538297&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="AvenidaModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71258678&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
-  
-<div id="ABCDEModal" class="reveal-modal">
-  <p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71258782&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>  </p>
-  <a class="close-reveal-modal">&#215;</a> </div>
+
   
 
       
