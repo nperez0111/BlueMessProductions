@@ -1,7 +1,7 @@
 @charset "utf-8";
 *{box-sizing:border-box;padding:0px;margin:0px;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
 
-body>div, body>nav{max-width:960px;margin:0 auto;}
+body>div, body>nav{max-width:1600px;margin:0 auto;}
 #main_nav {
 	min-width: 1024px;
 	position: fixed;
@@ -115,7 +115,8 @@ position:relative;top:-10px;height:100px;
  padding:0px;
  background-image:url('../img/mainlogo.png');
  width:100%;
- background-size:cover;
+background-size: auto 100%;
+background-position: center;
  background-repeat:no-repeat;
  }
 }
@@ -134,11 +135,10 @@ position:relative;top:-10px;height:100px;
 	height:600px;
 	display:block;
 	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
-
+&:nth-child(3){background-color:#FFF;}
 #mbg{
 width:100%;
-background-color:#0a172e; 
-
+background-color:#0a172e;
 }
 	
 }
@@ -152,6 +152,9 @@ color:#FFF;
 font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 .titlfix{top:-2.75em;color:#000;}	
+.repos{
+top:0px;
+}
 	$pad: 10px;
 	
 	.grid {
@@ -229,7 +232,7 @@ width:100%;
 }
 .services{
 	background-image:url(../img/services.png);
-	background-size:contain;
+	background-size:100%;
 	background-repeat:no-repeat;
 	.server{
 			top:70px;
