@@ -3,7 +3,7 @@
 
 body>div, body>nav{max-width:1600px;margin:0 auto;}
 #main_nav {
-	min-width: 1024px;
+	
 	position: fixed;
 	background-color: #FFFFFF;
 	height: 70px;
@@ -95,15 +95,15 @@ body>div, body>nav{max-width:1600px;margin:0 auto;}
   border-radius: 2px;*/
 	/* font */
 	
-	font-size:0.75em;
+	font-size:1.25em;
 	font-weight:300;
-	/*	letter-spacing: 0.1em;*/
+	
 	text-decoration:none;
 	font-style:normal;
 	text-transform:uppercase;
 	font-family:'brandon_grotesquebold', Helvetica, Arial, sans-serif;
 	line-height:1em;
-	letter-spacing: 0.0625em;
+	letter-spacing: 8px;
 
 }
 
@@ -135,7 +135,7 @@ background-position: center;
 	height:600px;
 	display:block;
 	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
-&:nth-child(3){background-color:#FFF;}
+&[data-slide="2"]{margin-top:600px;}&[data-slide="3"]{height:700px;padding-top:100px; .titlfix{top:-1em;}}
 #mbg{
 width:100%;
 background-color:#0a172e;
@@ -143,15 +143,15 @@ background-color:#0a172e;
 	
 }
 .titl{
-font-size:2.5em;
-text-transform:capitalize;
+font-size:3.125em;
+text-transform:uppercase;letter-spacing:17px;
 position: absolute;
 left:10%;
 top:33.333%;
 color:#FFF;
 font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
-.titlfix{top:-2.75em;color:#000;}	
+.titlfix{top:-2.5em;color:#000;}	
 .repos{
 top:0px;
 }
@@ -160,7 +160,7 @@ top:0px;
 	.grid {
 	  margin: 0 auto $pad auto;
 	  width:90%;
-	  max-width:980px;
+	  max-width:1080px;
 	  &:after {
 	    /* Or @extend clearfix */
 	    content: "";
@@ -191,8 +191,7 @@ top:0px;
 	}
 	[class*='col-'] {
 	  float: left;
-	  left:0px;
-	  position:relative;padding-right:1.15%;padding-left:1.15%;margin-bottom:2.3%;
+	  position:relative;
 	  
 	}
 	.col-2-3 {
@@ -207,6 +206,7 @@ top:0px;
 	}
 	.col-1-4 {
 	  width: 25%;
+	  padding-right:1.15%;padding-left:1.15%;margin-bottom:2.3%;
 	}
 	.col-1-8 {
 	  width: 12.5%;
@@ -220,8 +220,10 @@ top:0px;
 	  }
 	}
 .para{
+padding-left:2.5em;
+padding-right:7.1875em;
 color:#FFF;
-font-size:1.1em;
+font-size:1.4em;
 	  font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 .about{
@@ -233,23 +235,21 @@ width:100%;
 .services{
 	background-image:url(../img/services.png);
 	background-size:100%;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;height:600px;
 	.server{
-			top:70px;
-			left:15%;
+			top:0.75em;
 		}
 	#serv{
 	position:relative;
-	top:130px;
-	left:15%;
+	top:6.5em;
+	left:10%;
 	
 	
 		.servi{
 			display:block;
 			color:#fff;
-			font-size:1.35em;
-			margin-top:.5em;
-			letter-spacing:4px;
+			font-size:2em;
+			letter-spacing:13px;
 			text-transform:uppercase;
 			font-family:"brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 			
@@ -258,14 +258,15 @@ width:100%;
 }
 .contact{
 	margin-top:0px;
-		.titlfix{top:2em;}
-	.grid{
+		.titlfix{top:1.5em;}
+	.grid{width:100%;max-width:1600px;
 		.col-1-2{
-			&:first-child{
-				padding-top:150px;padding-left:50px;padding-right:60px;
+			span{font-size:1.875em;
+			display:block;position:relative;left:20%;top:6.5em;padding-right:40%;
 			}
-			form{
+			form{padding-right:19.375%;padding-left:4.5833333%;
 				label{
+					font-size:1.875em;
 					display:block;
 					position:relative;
 					margin-top:20px;
@@ -283,7 +284,7 @@ width:100%;
 					width:100%;
 					display:block;
 				}
-				input[type=submit]{
+				input[type=submit]{font-size:1.875em;
 					float:right;
 					width:25%;
 					background-color:#0a172e;padding-left:7px;padding-right:7px;color:#FFF;
@@ -297,12 +298,14 @@ width:100%;
 width:100%;
 margin:0 auto;
 background-color:#0a172e;
-	.grid{
-	.col-1-2{padding-top:15px;
+	.grid{max-width:1600px;
+	.col-1-2{padding-top:25px;
+	.copy{float:left;display:inline-block;width:4%;}
+		.reserve{display:inline-block;float:right;width:96%;}
 		span{
 		font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-		font-size:12px;display:block;text-transform:uppercase;color:#fff;
-		&:first-child{margin-top:10px;}
+		font-size:1em;display:block;text-transform:uppercase;color:#fff;letter-spacing:8px;
+		
 		}
 		img{
 		height:50px;

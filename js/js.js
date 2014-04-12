@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
 	
 	
 var start=false;
-var vall="-"+($('.clicked').first().width()-33)+"px";
+var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px";
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
 			if(start){
@@ -33,7 +33,7 @@ var vall="-"+($('.clicked').first().width()-33)+"px";
 		start=true;
 		
 			$(this).animate({
-				'left' : vall
+				'left' : "-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px"
 			});
 		}
 		
@@ -54,7 +54,7 @@ var vall="-"+($('.clicked').first().width()-33)+"px";
 	});
 		});
 			$(this).animate({
-				'left' : vall
+				'left' : "-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px"
 			});
 			
 		}
