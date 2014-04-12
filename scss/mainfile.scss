@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 *{box-sizing:border-box;padding:0px;margin:0px;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
 
-body>div, body>nav{max-width:1600px;margin:0 auto;}
+body>div{max-width:1600px;margin:0 auto;}
 #main_nav {
 	
 	position: fixed;
@@ -75,20 +75,20 @@ body>div, body>nav{max-width:1600px;margin:0 auto;}
     font-weight: normal;
     font-style: normal;
 
-}
+}#navigation{width:100%;top:0px;max-width:1600px;margin:0 auto;background-color:#FFF;height:110px;}
 #navigation li {
 	width:15.934065934065934065934065934066%;
 	height:70px;
 	float:left;
 	display:block;
-	position:relative;
+	background-color:#FFF;
 	text-align:center;cursor:pointer;
  a{
 	width:auto;
 	height:100%;
 	display:block;
 	overflow:hidden;
-	padding-top:27px;
+	padding-top:33px;
 	color:#333;
 	/*margin-right:5px;	-webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -110,7 +110,7 @@ body>div, body>nav{max-width:1600px;margin:0 auto;}
 &:nth-child(3){
 width:34.065934065934065934065934065934%;
 z-index:20;
-position:relative;top:-10px;height:100px;
+top:-10px;height:100px;
  a.mp{
  padding:0px;
  background-image:url('../img/mainlogo.png');
@@ -121,21 +121,17 @@ background-position: center;
  }
 }
 }
-	nav.topbar{
-	width:100%;
-	min-height:100px;
-	
-	padding-top:20px;
-	background-color:#FFF;
-	z-index:8;
+	nav{
+	position:fixed;width:100%;top:0px;
+	z-index:27;
 	}
 .slide {
 	
 	width:100%;
 	height:600px;
 	display:block;
-	position: relative;/*	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
-&[data-slide="2"]{margin-top:600px;}&[data-slide="3"]{height:700px;padding-top:100px; .titlfix{top:-1em;}}
+	position: relative;/*	*/
+&[data-slide="1"]{margin-top:110px;}&[data-slide="2"]{margin-top:600px;}&[data-slide="3"]{height:700px;padding-top:150px; .titlfix{top:0em;}}
 #mbg{
 width:100%;
 background-color:#0a172e;
@@ -171,7 +167,7 @@ top:0px;
 	.module{
 	left:0px;
 	position:relative;
-	width:100%;
+	width:100%;cursor:pointer;
 	img{
 	z-index:20;
 	&.clicked{
@@ -186,6 +182,7 @@ top:0px;
 		z-index:21;
 		left:0px;
 		width:100%;
+		
 	}
 	}
 	}
