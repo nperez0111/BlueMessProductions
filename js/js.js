@@ -20,7 +20,9 @@ jQuery(document).ready(function ($) {
 	
 	
 var start=false;
-var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px";
+
+//var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px";
+
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
 			if(start){
@@ -67,4 +69,24 @@ var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)
 	}
 	
 	});
+	
+	function player(tobplaid){
+		
+		$('audio').each(function( index, element ) {
+		
+			if(this.is(tobplaid.find("audio"))){
+			this.play();
+			}
+			else{
+			this.pause();
+			}
+		
+		});
+	
+	};
+	
+	$('.dl').click(function(){
+		tobplaid(this);
+	});
+	
 });
