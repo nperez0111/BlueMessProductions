@@ -45,6 +45,12 @@ var start=true;
    				 'left' : "0px"
 			});
 		});
+		if(currentlyplaying()==null){
+			
+			}
+			else{
+				document.getElementById("a"+currentlyplaying().attr("data-audio")).pause();
+				}
 	}
 	
 	});
@@ -78,6 +84,7 @@ var start=true;
 		//then toggle it playing to stop
 		
 		toggleplay($(this).parent().find("audio"));
+		$(this).toggleClass("play playing");
 		console.log("it is playing!!");
 		}
 		//if the audio is not playing
@@ -85,6 +92,7 @@ var start=true;
 			//then play it
 			console.log("not playing but lets try to play it");
 			toggleplay($(this).parent().find("audio"));
+			$(this).toggleClass("play playing");
 		}
 		
 	}
@@ -149,7 +157,7 @@ var start=true;
 	}
 	});
 */
-/*
+
 	//goes through each audio element and if it is playing then it returns it if it is the first time then returns null if none are playing returns false
 	function currentlyplaying(){ 
 		$('audio').each(function(){
@@ -159,7 +167,7 @@ var start=true;
 			return null;
 			}
 	});
-	return false;
-	}*/
+	return null;
+	}
 	
 });
