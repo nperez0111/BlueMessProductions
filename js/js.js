@@ -20,17 +20,34 @@ jQuery(document).ready(function ($) {
 	
 	
 var start=true;
-
+var lastPlayed= null;
 //var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px";
 
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
+		//if is not the firsttime close them all
 			if(!start){
+				
+				if(lastPlayed== null){
+				
 				$('.discog').each(function(){
 					$(this).animate({
     					'left' : "0px"
 					});
 				});
+				
+				}
+				else{
+				
+					$('.discog').each(function(){
+			$(this).animate({
+   				 'left' : "0px"
+			});
+		});
+					document.getElementById("a"+lastPlayed.attr("data-audio")).pause();
+					$(lastPlayed).parent().find(".player").removeClass().addClass("player play");
+				
+				}
 			}
 		start=false;
 		
@@ -40,17 +57,30 @@ var start=true;
 		}
 		
 	else {
-		$('.discog').each(function(){
+		
+		
+		if(lastPlayed==null){
+		
+			$('.discog').each(function(){
 			$(this).animate({
    				 'left' : "0px"
 			});
 		});
-		if(currentlyplaying()==null){
+		
+		}
+		else{
+		
 			
-			}
-			else{
-				document.getElementById("a"+currentlyplaying().attr("data-audio")).pause();
-				}
+			
+			$(this).animate({
+   				 'left' : "0px"
+			});
+			$(this).parent().find(".player").removeClass().addClass("player play");
+			document.getElementById("a"+lastPlayed.attr("data-audio")).pause();
+		
+		}
+		
+		
 	}
 	
 	});
@@ -83,7 +113,8 @@ var start=true;
 		if(isPlaying($(this).parent().find("audio"))){
 		//then toggle it playing to stop
 		
-		toggleplay($(this).parent().find("audio"));
+		toggleplay(lastPlayed);
+		
 		$(this).toggleClass("play playing");
 		console.log("it is playing!!");
 		}
@@ -91,7 +122,9 @@ var start=true;
 		else{
 			//then play it
 			console.log("not playing but lets try to play it");
-			toggleplay($(this).parent().find("audio"));
+			lastPlayed = $(this).parent().find("audio");
+			toggleplay(lastPlayed);
+			
 			$(this).toggleClass("play playing");
 		}
 		
@@ -159,15 +192,16 @@ var start=true;
 */
 
 	//goes through each audio element and if it is playing then it returns it if it is the first time then returns null if none are playing returns false
-	function currentlyplaying(){ 
-		$('audio').each(function(){
+	/*function currentlyplaying(){ 
+		$('audio').each(function(i){
 			if(isPlaying($(this)))
-				return $(this);
+			{console.log('we are trying to return');
+				return 1;}
 			else if(first){
-			return null;
+			return 0;
 			}
 	});
-	return null;
-	}
+	return -1;
 	
+	}*/
 });

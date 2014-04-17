@@ -102,7 +102,7 @@ body > div {
   text-transform: uppercase;
   font-family: 'brandon_grotesquebold', Helvetica, Arial, sans-serif;
   line-height: 1em;
-  letter-spacing: 8px;
+  letter-spacing: 7.5px;
 }
 /* line 110, ../scss/mainfile.scss */
 #navigation li:nth-child(3) {
@@ -111,7 +111,7 @@ body > div {
   top: -10px;
   height: 100px;
 }
-/* line 114, ../scss/mainfile.scss */
+/* line 115, ../scss/mainfile.scss */
 #navigation li:nth-child(3) a.mp {
   padding: 0px;
   background-image: url("../img/mainlogo.png");
@@ -121,7 +121,7 @@ body > div {
   background-repeat: no-repeat;
 }
 
-/* line 124, ../scss/mainfile.scss */
+/* line 125, ../scss/mainfile.scss */
 nav {
   position: fixed;
   width: 100%;
@@ -129,7 +129,7 @@ nav {
   z-index: 27;
 }
 
-/* line 128, ../scss/mainfile.scss */
+/* line 129, ../scss/mainfile.scss */
 .slide {
   width: 100%;
   height: 600px;
@@ -137,30 +137,30 @@ nav {
   position: relative;
   /*	*/
 }
-/* line 134, ../scss/mainfile.scss */
+/* line 135, ../scss/mainfile.scss */
 .slide[data-slide="1"] {
   margin-top: 110px;
 }
-/* line 134, ../scss/mainfile.scss */
+/* line 135, ../scss/mainfile.scss */
 .slide[data-slide="2"] {
   margin-top: 600px;
 }
-/* line 134, ../scss/mainfile.scss */
+/* line 135, ../scss/mainfile.scss */
 .slide[data-slide="3"] {
   height: 700px;
   padding-top: 50px;
 }
-/* line 134, ../scss/mainfile.scss */
+/* line 135, ../scss/mainfile.scss */
 .slide[data-slide="3"] .titlfix {
   top: -1em;
 }
-/* line 135, ../scss/mainfile.scss */
+/* line 136, ../scss/mainfile.scss */
 .slide #mbg {
   width: 100%;
   background-color: #0a172e;
 }
 
-/* line 141, ../scss/mainfile.scss */
+/* line 142, ../scss/mainfile.scss */
 .titl {
   font-size: 3.125em;
   text-transform: uppercase;
@@ -172,24 +172,24 @@ nav {
   font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-/* line 150, ../scss/mainfile.scss */
+/* line 151, ../scss/mainfile.scss */
 .titlfix {
   top: -2.5em;
   color: #000;
 }
 
-/* line 151, ../scss/mainfile.scss */
+/* line 152, ../scss/mainfile.scss */
 .repos {
   top: 0px;
 }
 
-/* line 156, ../scss/mainfile.scss */
+/* line 157, ../scss/mainfile.scss */
 .grid {
   margin: 0 auto 10px auto;
   width: 90%;
   max-width: 1080px;
 }
-/* line 160, ../scss/mainfile.scss */
+/* line 161, ../scss/mainfile.scss */
 .grid:after {
   /* Or @extend clearfix */
   content: "";
@@ -197,18 +197,18 @@ nav {
   clear: both;
 }
 
-/* line 167, ../scss/mainfile.scss */
+/* line 168, ../scss/mainfile.scss */
 .module {
   left: 0px;
   position: relative;
   width: 100%;
   cursor: pointer;
 }
-/* line 171, ../scss/mainfile.scss */
+/* line 172, ../scss/mainfile.scss */
 .module img {
   z-index: 22;
 }
-/* line 174, ../scss/mainfile.scss */
+/* line 175, ../scss/mainfile.scss */
 .module img.clicked {
   position: absolute;
   z-index: 21;
@@ -216,30 +216,30 @@ nav {
   top: 0px;
   right: 5px;
 }
-/* line 182, ../scss/mainfile.scss */
+/* line 183, ../scss/mainfile.scss */
 .module img.discog {
   position: relative;
   z-index: 23;
   left: 0px;
   width: 100%;
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -ms-transition: all 500ms ease-out;
-  -o-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
-/* line 191, ../scss/mainfile.scss */
+/* line 192, ../scss/mainfile.scss */
 .module img.discog:hover {
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
-  -o-filter: grayscale(50%) hue-rotate(90deg);
-  -moz-filter: grayscale(50%) hue-rotate(90deg);
-  -ms-filter: grayscale(50%) hue-rotate(90deg);
-  -webkit-filter: grayscale(50%) hue-rotate(-45deg);
-  filter: grayscale(50%) hue-rotate(90deg);
+  -o-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  -moz-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  -ms-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
-/* line 203, ../scss/mainfile.scss */
+/* line 204, ../scss/mainfile.scss */
 .module .player {
   z-index: 20;
   height: 100%;
@@ -251,42 +251,42 @@ nav {
   background-repeat: no-repeat;
   z-index: 22;
 }
-/* line 212, ../scss/mainfile.scss */
+/* line 214, ../scss/mainfile.scss */
 .module .player:hover {
   background-size: 75%;
   background-color: rgba(250, 250, 250, 0.5);
 }
-/* line 217, ../scss/mainfile.scss */
+/* line 219, ../scss/mainfile.scss */
 .module .play {
   background-image: url("../img/toplay.png");
 }
-/* line 218, ../scss/mainfile.scss */
+/* line 222, ../scss/mainfile.scss */
 .module .playing {
   background-image: url("../img/isplaying.png");
 }
 
-/* line 225, ../scss/mainfile.scss */
+/* line 229, ../scss/mainfile.scss */
 [class*='col-'] {
   float: left;
   position: relative;
 }
 
-/* line 230, ../scss/mainfile.scss */
+/* line 234, ../scss/mainfile.scss */
 .col-2-3 {
   width: 66.66%;
 }
 
-/* line 233, ../scss/mainfile.scss */
+/* line 237, ../scss/mainfile.scss */
 .col-1-3 {
   width: 33.33%;
 }
 
-/* line 236, ../scss/mainfile.scss */
+/* line 240, ../scss/mainfile.scss */
 .col-1-2 {
   width: 50%;
 }
 
-/* line 240, ../scss/mainfile.scss */
+/* line 244, ../scss/mainfile.scss */
 .col-1-4 {
   width: 25%;
   padding-right: 1.15%;
@@ -294,22 +294,22 @@ nav {
   margin-bottom: 2.3%;
 }
 
-/* line 244, ../scss/mainfile.scss */
+/* line 248, ../scss/mainfile.scss */
 .col-1-8 {
   width: 12.5%;
 }
 
 /* Opt-in outside padding */
-/* line 249, ../scss/mainfile.scss */
+/* line 253, ../scss/mainfile.scss */
 .grid-pad {
   padding: 10px 0 10px 10px;
 }
-/* line 251, ../scss/mainfile.scss */
+/* line 255, ../scss/mainfile.scss */
 .grid-pad [class*='col-']:last-of-type {
   padding-right: 10px;
 }
 
-/* line 255, ../scss/mainfile.scss */
+/* line 259, ../scss/mainfile.scss */
 .para {
   padding-left: 2.5em;
   padding-right: 7.1875em;
@@ -318,34 +318,34 @@ nav {
   font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-/* line 262, ../scss/mainfile.scss */
+/* line 266, ../scss/mainfile.scss */
 .about {
   color: #FFF;
 }
 
-/* line 265, ../scss/mainfile.scss */
+/* line 269, ../scss/mainfile.scss */
 #bluemesslogo {
   width: 100%;
 }
 
-/* line 268, ../scss/mainfile.scss */
+/* line 272, ../scss/mainfile.scss */
 .services {
   background-image: url(../img/services.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 600px;
 }
-/* line 272, ../scss/mainfile.scss */
+/* line 276, ../scss/mainfile.scss */
 .services .server {
   top: 0.75em;
 }
-/* line 275, ../scss/mainfile.scss */
+/* line 279, ../scss/mainfile.scss */
 .services #serv {
   position: relative;
   top: 6.5em;
   left: 10%;
 }
-/* line 281, ../scss/mainfile.scss */
+/* line 285, ../scss/mainfile.scss */
 .services #serv .servi {
   display: block;
   color: #fff;
@@ -355,20 +355,20 @@ nav {
   font-family: "brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-/* line 292, ../scss/mainfile.scss */
+/* line 296, ../scss/mainfile.scss */
 .contact {
   margin-top: 0px;
 }
-/* line 294, ../scss/mainfile.scss */
+/* line 298, ../scss/mainfile.scss */
 .contact .titlfix {
   top: 1.5em;
 }
-/* line 295, ../scss/mainfile.scss */
+/* line 299, ../scss/mainfile.scss */
 .contact .grid {
   width: 100%;
   max-width: 1600px;
 }
-/* line 297, ../scss/mainfile.scss */
+/* line 301, ../scss/mainfile.scss */
 .contact .grid .col-1-2 span {
   font-size: 1.875em;
   display: block;
@@ -377,35 +377,35 @@ nav {
   top: 6.5em;
   padding-right: 40%;
 }
-/* line 300, ../scss/mainfile.scss */
+/* line 304, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form {
   padding-right: 19.375%;
   padding-left: 4.5833333%;
 }
-/* line 301, ../scss/mainfile.scss */
+/* line 305, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form label {
   font-size: 1.875em;
   display: block;
   position: relative;
   margin-top: 20px;
 }
-/* line 306, ../scss/mainfile.scss */
+/* line 310, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form label:first-child {
   margin-top: 80px;
 }
-/* line 310, ../scss/mainfile.scss */
+/* line 314, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form input {
   margin-top: 5px;
   display: block;
   width: 100%;
 }
-/* line 315, ../scss/mainfile.scss */
+/* line 319, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form textarea {
   margin-top: 5px;
   width: 100%;
   display: block;
 }
-/* line 320, ../scss/mainfile.scss */
+/* line 324, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form input[type=submit] {
   font-size: 1.875em;
   float: right;
@@ -418,33 +418,33 @@ nav {
   color: #FFF;
 }
 
-/* line 330, ../scss/mainfile.scss */
+/* line 334, ../scss/mainfile.scss */
 #footer {
   width: 100%;
   margin: 0 auto;
   background-color: #0a172e;
 }
-/* line 334, ../scss/mainfile.scss */
+/* line 338, ../scss/mainfile.scss */
 #footer .grid {
   max-width: 1600px;
 }
-/* line 335, ../scss/mainfile.scss */
+/* line 339, ../scss/mainfile.scss */
 #footer .grid .col-1-2 {
   padding-top: 25px;
 }
-/* line 336, ../scss/mainfile.scss */
+/* line 340, ../scss/mainfile.scss */
 #footer .grid .col-1-2 .copy {
   float: left;
   display: inline-block;
   width: 4%;
 }
-/* line 337, ../scss/mainfile.scss */
+/* line 341, ../scss/mainfile.scss */
 #footer .grid .col-1-2 .reserve {
   display: inline-block;
   float: right;
   width: 96%;
 }
-/* line 338, ../scss/mainfile.scss */
+/* line 342, ../scss/mainfile.scss */
 #footer .grid .col-1-2 span {
   font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-size: 1em;
@@ -453,7 +453,7 @@ nav {
   color: #fff;
   letter-spacing: 8px;
 }
-/* line 343, ../scss/mainfile.scss */
+/* line 347, ../scss/mainfile.scss */
 #footer .grid .col-1-2 img {
   height: 50px;
   width: auto;
