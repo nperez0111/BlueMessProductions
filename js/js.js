@@ -55,8 +55,9 @@ var start=true;
 	
 	//when the .clicked is clicked
 	
-	$('.clicked').click(function(){
+	$('.player').click(function(){
 		//doesnt do anything as .clicked can only be clicked when this is not true
+		console.log("You clicked .clicked");
 		if($(this).prev().css("left")=="0px"){
 			$('.discog').each(function(){
 				$(this).animate({
@@ -71,27 +72,35 @@ var start=true;
 		}
 		//if it is clickable...
 	else {
+		console.log("checking if playing...");
 		//if the audio is playing
-		if(isPlaying(this.parent().find("audio"))){
+		if(isPlaying($(this).parent().find("audio"))){
 		//then toggle it playing to stop
-		this.toggleplay();
+		
+		toggleplay($(this).parent().find("audio"));
+		console.log("it is playing!!");
 		}
 		//if the audio is not playing
 		else{
 			//then play it
-			this.toggleplay();
+			console.log("not playing but lets try to play it");
+			toggleplay($(this).parent().find("audio"));
 		}
 		
 	}
 	
-	$.fn.toggleplay = function() { 
-		if(isPlaying(this)){
-			this.parent().find('audio').pause();
+	function toggleplay(elem) { 
+		if(isPlaying(elem)){
+			
+			document.getElementById("a"+elem.attr("data-audio")).pause();
+			console.log("paused it");
 		}
 		else{
-			this.parent().find('audio').play();
+			
+			document.getElementById("a"+elem.attr("data-audio")).play();
+			console.log("Played it");
 		}
-	return this;
+	return elem;
 	}
 	
 	});
@@ -104,11 +113,11 @@ var start=true;
 		
 		$('audio').each(function( index, element ) {
 		
-			if(this.is(tobplaid.parent().find("audio"))){
-			this.play();
+			if($(this).is(tobplaid.parent().find("audio"))){
+			$(this).play();
 			}
 			else{
-			this.pause();
+			$(this).pause();
 			}
 		
 		});
@@ -119,7 +128,8 @@ var start=true;
 	function isPlaying(elem){
 		
 		//if is playing then return true
-		if((!elem.paused || !elem.currentTime) || (elem.duration > 0 && !elem.paused)){
+		if((!document.getElementById("a"+elem.attr("data-audio")).paused ) || (document.getElementById("a"+elem.attr("data-audio")).duration > 0 && !document.getElementById("a"+elem.attr("data-audio")).paused)){
+			console.log("is playin");
 			return true;
 			}
 		//if it is not playing return false
@@ -143,8 +153,8 @@ var start=true;
 	//goes through each audio element and if it is playing then it returns it if it is the first time then returns null if none are playing returns false
 	function currentlyplaying(){ 
 		$('audio').each(function(){
-			if(isPlaying(this))
-				return this;
+			if(isPlaying($(this)))
+				return $(this);
 			else if(first){
 			return null;
 			}
