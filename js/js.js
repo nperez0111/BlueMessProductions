@@ -93,7 +93,7 @@ var lastPlayed= null;
 	
 	$('.player').click(function(){
 		//doesnt do anything as .clicked can only be clicked when this is not true
-		console.log("You clicked .clicked");
+		
 		if($(this).prev().css("left")=="0px"){
 			$('.discog').each(function(){
 				$(this).animate({
@@ -106,9 +106,9 @@ var lastPlayed= null;
 			});
 			
 		}
-		//if it is clickable...
+		
 	else {
-		console.log("checking if playing...");
+		
 		//if the audio is playing
 		if(isPlaying($(this).parent().find("audio"))){
 		//then toggle it playing to stop
@@ -116,12 +116,12 @@ var lastPlayed= null;
 		toggleplay(lastPlayed);
 		
 		$(this).toggleClass("play playing");
-		console.log("it is playing!!");
+		
 		}
 		//if the audio is not playing
 		else{
 			//then play it
-			console.log("not playing but lets try to play it");
+			
 			lastPlayed = $(this).parent().find("audio");
 			toggleplay(lastPlayed);
 			
@@ -134,12 +134,12 @@ var lastPlayed= null;
 		if(isPlaying(elem)){
 			
 			document.getElementById("a"+elem.attr("data-audio")).pause();
-			console.log("paused it");
+			
 		}
 		else{
 			
 			document.getElementById("a"+elem.attr("data-audio")).play();
-			console.log("Played it");
+			
 		}
 	return elem;
 	}
@@ -170,7 +170,7 @@ var lastPlayed= null;
 		
 		//if is playing then return true
 		if((!document.getElementById("a"+elem.attr("data-audio")).paused ) || (document.getElementById("a"+elem.attr("data-audio")).duration > 0 && !document.getElementById("a"+elem.attr("data-audio")).paused)){
-			console.log("is playin");
+			
 			return true;
 			}
 		//if it is not playing return false
