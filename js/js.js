@@ -25,6 +25,7 @@ var lastPlayed= null;
 
 	$('.discog').click(function(){
 		if($(this).css("left")=="0px"){
+			
 		//if is not the firsttime close them all
 			if(!start){
 				
@@ -102,7 +103,7 @@ var lastPlayed= null;
 			});
 			
 			$(this).animate({
-				'left' : "-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px"
+				'left' : "-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766)-1)+"px"
 			});
 			
 		}

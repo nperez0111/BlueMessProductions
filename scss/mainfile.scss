@@ -1,5 +1,5 @@
 ﻿@charset "utf-8";
-*{box-sizing:border-box;padding:0px;margin:0px;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
+*{box-sizing:border-box;padding:0;margin:0;font-family:"brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
 
 body>div{max-width:1600px;margin:0 auto;}
 #main_nav {
@@ -8,8 +8,8 @@ body>div{max-width:1600px;margin:0 auto;}
 	background-color: #FFFFFF;
 	height: 70px;
 	width: 100%;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 }
 @font-face {
     font-family: 'brandon_grotesquebold';
@@ -75,7 +75,7 @@ body>div{max-width:1600px;margin:0 auto;}
     font-weight: normal;
     font-style: normal;
 
-}#navigation{width:100%;top:0px;max-width:1600px;margin:0 auto;background-color:#FFF;height:110px;}
+}#navigation{width:100%;top:0;max-width:1600px;margin:0 auto;background-color:#FFF;height:110px;}
 #navigation li {
 	width:15.934065934065934065934065934066%;
 	height:70px;
@@ -113,7 +113,7 @@ body>div{max-width:1600px;margin:0 auto;}
 	top:-10px;
 	height:100px;
 		 a.mp{
-		 padding:0px;
+		 padding:0;
 		 background-image:url('../img/mainlogo.png');
 		 width:100%;
 		background-size: auto 100%;
@@ -123,7 +123,7 @@ body>div{max-width:1600px;margin:0 auto;}
 }
 }
 	nav{
-	position:fixed;width:100%;top:0px;
+	position:fixed;width:100%;top:0;
 	z-index:27;
 	}
 .slide {
@@ -132,7 +132,7 @@ body>div{max-width:1600px;margin:0 auto;}
 	height:600px;
 	display:block;
 	position: relative;/*	*/
-&[data-slide="1"]{margin-top:110px;}&[data-slide="2"]{margin-top:600px;}&[data-slide="3"]{height:700px;padding-top:50px; .titlfix{top:-1em;}}
+&[data-slide="1"]{margin-top:110px;background-color:#0a172e;}&[data-slide="2"]{margin-top:600px;background-color:#0a172e;}&[data-slide="3"]{height:700px;padding-top:100px; .titlfix{top:0;}}
 #mbg{
 width:100%;
 background-color:#0a172e;
@@ -150,7 +150,7 @@ font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida S
 }
 .titlfix{top:-2.5em;color:#000;}	
 .repos{
-top:0px;
+top:0;
 }
 	$pad: 10px;
 	
@@ -166,7 +166,7 @@ top:0px;
 	  }
 	}
 	.module{
-	left:0px;
+	left:0;
 	position:relative;
 	width:100%;cursor:pointer;
 	img{
@@ -176,8 +176,7 @@ top:0px;
 		position:absolute;
 		z-index:21;
 		width:100%;
-		top:0px;
-		right:5px;
+		top:0;
 		
 	}
 	&.discog{
@@ -190,32 +189,44 @@ top:0px;
 -o-transition: all 300ms ease-out;
 transition: all 300ms ease-out;
 		&:hover{	
-		-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-			-o-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-			-moz-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-			-ms-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-			-webkit-filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-			filter: grayscale(50%) hue-rotate(-45deg) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+		-webkit-box-shadow: 0 8px 6px -6px black, 12px 12px 7px  #858585;
+	   -moz-box-shadow: 0 8px 6px -6px black, 12px 12px 7px  #858585;
+	        box-shadow: 0 8px 6px -6px black, 12px 12px 7px  #858585;
+			
+			/*-o-filter: grayscale(50%) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+			-moz-filter: grayscale(50%)  drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+			-ms-filter: grayscale(50%) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+			-webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+			filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));*/
    }
 	}
 	}
 		.player{
-		z-index:20;
 		height:100%;
 		width:100%;
-		position:absolute;top:0;
-		
+		position:absolute;
+		top:0;		
 		background-position:center center;
-		background-size:60%;
+		background-size:40%;
 		background-repeat:no-repeat;
 		z-index:22;
-			&:hover{
-				background-size:75%;
-				background-color:rgba(250,250,250,0.5);
+			&:before{
+				content:"";
+				background-size:100%;
+					
+				background-image:url('../img/clicked.png');
+				height:100%;
+				position:absolute;
+				top:0;		
+			
 			}
-	}
+		
+			&:hover{
+				background-size:60%;
+				background-color:rgba(250,250,250,0.5);
+				
+			}
+		}
 		.play{
 		background-image:url('../img/toplay.png');
 		}
@@ -298,7 +309,7 @@ width:100%;
 	}	
 }
 .contact{
-	margin-top:0px;
+	margin-top:0;
 		.titlfix{top:1.5em;}
 	.grid{width:100%;max-width:1600px;
 		.col-1-2{
