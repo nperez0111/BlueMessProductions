@@ -273,10 +273,13 @@ padding-right:7.1875em;
 color:#FFF;
 font-size:1.4em;
 	  font-family:"brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	  img{
-	  width:5em;
-	  float:left;margin-right:30%;
-	  }
+		  img{
+			width: 200px;
+			position: absolute;
+			height: auto;
+			left: 50%;
+			margin-left: -150px;
+		  }
 }
 .about{
 color:#FFF;
