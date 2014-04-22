@@ -349,16 +349,16 @@ nav {
 /* line 287, ../scss/mainfile.scss */
 .services #serv {
   position: relative;
-  top: 8.5em;
+  top: 9.5em;
   left: 10%;
 }
 /* line 293, ../scss/mainfile.scss */
 .services #serv .servi {
   display: block;
   color: #fff;
-  font-size: 2em;
+  font-size: 1.6em;
   letter-spacing: 13px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.59em;
   text-transform: uppercase;
   font-family: "brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
