@@ -155,7 +155,7 @@ nav {
 }
 /* line 135, ../scss/mainfile.scss */
 .slide[data-slide="3"] .titlfix {
-  top: 0;
+  top: 0.5em;
 }
 /* line 136, ../scss/mainfile.scss */
 .slide #mbg {
