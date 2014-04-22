@@ -23,7 +23,7 @@ var start=true;
 var lastPlayed= null;
 //var vall="-"+($('.clicked').first().width()-(($('.clicked').first().width()*130)/766))+"px";
 
-	$('.discog').click(function(){
+	$('.discog').mouseenter(function(){
 		if($(this).css("left")=="0px"){
 			
 		//if is not the firsttime close them all

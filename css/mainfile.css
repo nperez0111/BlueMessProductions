@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   font-family: "brandon_grotesque_regularRg", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 12px;
 }
 
 /* line 4, ../scss/mainfile.scss */
@@ -89,7 +90,7 @@ body > div {
   height: 100%;
   display: block;
   overflow: hidden;
-  padding-top: 33px;
+  padding-top: 47px;
   color: #333;
   	/*margin-right:5px;	-webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -109,7 +110,7 @@ body > div {
   width: 34.065934065934065934065934065934%;
   z-index: 20;
   top: -10px;
-  height: 100px;
+  height: 110px;
 }
 /* line 115, ../scss/mainfile.scss */
 #navigation li:nth-child(3) a.mp {
@@ -229,18 +230,7 @@ nav {
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
-/* line 191, ../scss/mainfile.scss */
-.module img.discog:hover {
-  -webkit-box-shadow: 0 8px 6px -6px black, 12px 12px 7px #858585;
-  -moz-box-shadow: 0 8px 6px -6px black, 12px 12px 7px #858585;
-  box-shadow: 0 8px 6px -6px black, 12px 12px 7px #858585;
-  /*-o-filter: grayscale(50%) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-  -moz-filter: grayscale(50%)  drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-  -ms-filter: grayscale(50%) drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-  filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));*/
-}
-/* line 204, ../scss/mainfile.scss */
+/* line 194, ../scss/mainfile.scss */
 .module .player {
   height: 100%;
   width: 100%;
@@ -251,7 +241,7 @@ nav {
   background-repeat: no-repeat;
   z-index: 22;
 }
-/* line 213, ../scss/mainfile.scss */
+/* line 203, ../scss/mainfile.scss */
 .module .player:before {
   content: "";
   background-size: 100%;
@@ -260,42 +250,42 @@ nav {
   position: absolute;
   top: 0;
 }
-/* line 224, ../scss/mainfile.scss */
+/* line 214, ../scss/mainfile.scss */
 .module .player:hover {
   background-size: 60%;
   background-color: rgba(250, 250, 250, 0.5);
 }
-/* line 230, ../scss/mainfile.scss */
+/* line 220, ../scss/mainfile.scss */
 .module .play {
   background-image: url("../img/toplay.png");
 }
-/* line 233, ../scss/mainfile.scss */
+/* line 223, ../scss/mainfile.scss */
 .module .playing {
   background-image: url("../img/isplaying.png");
 }
 
-/* line 240, ../scss/mainfile.scss */
+/* line 230, ../scss/mainfile.scss */
 [class*='col-'] {
   float: left;
   position: relative;
 }
 
-/* line 245, ../scss/mainfile.scss */
+/* line 235, ../scss/mainfile.scss */
 .col-2-3 {
   width: 66.66%;
 }
 
-/* line 248, ../scss/mainfile.scss */
+/* line 238, ../scss/mainfile.scss */
 .col-1-3 {
   width: 33.33%;
 }
 
-/* line 251, ../scss/mainfile.scss */
+/* line 241, ../scss/mainfile.scss */
 .col-1-2 {
   width: 50%;
 }
 
-/* line 255, ../scss/mainfile.scss */
+/* line 245, ../scss/mainfile.scss */
 .col-1-4 {
   width: 25%;
   padding-right: 1.15%;
@@ -303,22 +293,22 @@ nav {
   margin-bottom: 2.3%;
 }
 
-/* line 259, ../scss/mainfile.scss */
+/* line 249, ../scss/mainfile.scss */
 .col-1-8 {
   width: 12.5%;
 }
 
 /* Opt-in outside padding */
-/* line 264, ../scss/mainfile.scss */
+/* line 254, ../scss/mainfile.scss */
 .grid-pad {
   padding: 10px 0 10px 10px;
 }
-/* line 266, ../scss/mainfile.scss */
+/* line 256, ../scss/mainfile.scss */
 .grid-pad [class*='col-']:last-of-type {
   padding-right: 10px;
 }
 
-/* line 270, ../scss/mainfile.scss */
+/* line 260, ../scss/mainfile.scss */
 .para {
   padding-left: 2.5em;
   padding-right: 7.1875em;
@@ -326,7 +316,7 @@ nav {
   font-size: 1.4em;
   font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
-/* line 276, ../scss/mainfile.scss */
+/* line 266, ../scss/mainfile.scss */
 .para img {
   width: 200px;
   position: absolute;
@@ -335,57 +325,58 @@ nav {
   margin-left: -150px;
 }
 
-/* line 284, ../scss/mainfile.scss */
+/* line 274, ../scss/mainfile.scss */
 .about {
   color: #FFF;
 }
 
-/* line 287, ../scss/mainfile.scss */
+/* line 277, ../scss/mainfile.scss */
 #bluemesslogo {
   width: 100%;
 }
 
-/* line 290, ../scss/mainfile.scss */
+/* line 280, ../scss/mainfile.scss */
 .services {
   background-image: url(../img/services.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 600px;
 }
-/* line 294, ../scss/mainfile.scss */
+/* line 284, ../scss/mainfile.scss */
 .services .server {
   top: 0.75em;
 }
-/* line 297, ../scss/mainfile.scss */
+/* line 287, ../scss/mainfile.scss */
 .services #serv {
   position: relative;
-  top: 6.5em;
+  top: 8.5em;
   left: 10%;
 }
-/* line 303, ../scss/mainfile.scss */
+/* line 293, ../scss/mainfile.scss */
 .services #serv .servi {
   display: block;
   color: #fff;
   font-size: 2em;
   letter-spacing: 13px;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
   font-family: "brandon_grotesquemedium", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
-/* line 314, ../scss/mainfile.scss */
+/* line 304, ../scss/mainfile.scss */
 .contact {
   margin-top: 0;
 }
-/* line 316, ../scss/mainfile.scss */
+/* line 306, ../scss/mainfile.scss */
 .contact .titlfix {
   top: 1.5em;
 }
-/* line 317, ../scss/mainfile.scss */
+/* line 307, ../scss/mainfile.scss */
 .contact .grid {
   width: 100%;
   max-width: 1600px;
 }
-/* line 319, ../scss/mainfile.scss */
+/* line 309, ../scss/mainfile.scss */
 .contact .grid .col-1-2 span {
   font-size: 1.875em;
   display: block;
@@ -394,35 +385,35 @@ nav {
   top: 6.5em;
   padding-right: 40%;
 }
-/* line 322, ../scss/mainfile.scss */
+/* line 312, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form {
   padding-right: 19.375%;
   padding-left: 4.5833333%;
 }
-/* line 323, ../scss/mainfile.scss */
+/* line 313, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form label {
   font-size: 1.875em;
   display: block;
   position: relative;
   margin-top: 20px;
 }
-/* line 328, ../scss/mainfile.scss */
+/* line 318, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form label:first-child {
   margin-top: 80px;
 }
-/* line 332, ../scss/mainfile.scss */
+/* line 322, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form input {
   margin-top: 5px;
   display: block;
   width: 100%;
 }
-/* line 337, ../scss/mainfile.scss */
+/* line 327, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form textarea {
   margin-top: 5px;
   width: 100%;
   display: block;
 }
-/* line 342, ../scss/mainfile.scss */
+/* line 332, ../scss/mainfile.scss */
 .contact .grid .col-1-2 form input[type=submit] {
   font-size: 1.875em;
   float: right;
@@ -435,46 +426,47 @@ nav {
   color: #FFF;
 }
 
-/* line 352, ../scss/mainfile.scss */
+/* line 342, ../scss/mainfile.scss */
 #footer {
   width: 100%;
   margin: 0 auto;
   background-color: #0a172e;
 }
-/* line 356, ../scss/mainfile.scss */
+/* line 346, ../scss/mainfile.scss */
 #footer .grid {
   max-width: 1600px;
 }
-/* line 357, ../scss/mainfile.scss */
+/* line 347, ../scss/mainfile.scss */
 #footer .grid .col-1-2 {
   padding-top: 25px;
 }
-/* line 358, ../scss/mainfile.scss */
+/* line 348, ../scss/mainfile.scss */
 #footer .grid .col-1-2 .copy {
   float: left;
   display: inline-block;
   width: 4%;
 }
-/* line 359, ../scss/mainfile.scss */
+/* line 349, ../scss/mainfile.scss */
 #footer .grid .col-1-2 .reserve {
   display: inline-block;
   float: right;
   width: 96%;
 }
-/* line 360, ../scss/mainfile.scss */
+/* line 350, ../scss/mainfile.scss */
 #footer .grid .col-1-2 span {
   font-family: "brandon_grotesquelight", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 1em;
+  font-size: 0.75em;
   display: block;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 8px;
 }
-/* line 365, ../scss/mainfile.scss */
+/* line 355, ../scss/mainfile.scss */
 #footer .grid .col-1-2 img {
   height: 50px;
   width: auto;
   float: right;
   position: relative;
+  top: -12.5px;
   right: -10px;
 }
