@@ -478,3 +478,154 @@ nav {
   top: -12.5px;
   right: -10px;
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 1024px) {
+  /* line 371, ../scss/mainfile.scss */
+  #navigation li:nth-child(3) a.mp {
+    background-size: 100% auto;
+  }
+
+  /* line 372, ../scss/mainfile.scss */
+  .para {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+
+  /* line 376, ../scss/mainfile.scss */
+  .slide[data-slide="2"] {
+    margin-top: 0px;
+  }
+
+  /* line 379, ../scss/mainfile.scss */
+  #navigation li a {
+    letter-spacing: 0px;
+  }
+
+  /* line 384, ../scss/mainfile.scss */
+  .col-1-5 {
+    width: 25%;
+  }
+
+  /* line 387, ../scss/mainfile.scss */
+  .services {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 391, ../scss/mainfile.scss */
+  nav {
+    position: relative;
+  }
+
+  /* line 392, ../scss/mainfile.scss */
+  .slide[data-slide="1"] {
+    margin-top: 0px;
+  }
+
+  /* line 393, ../scss/mainfile.scss */
+  .col-1-5 {
+    margin-top: 0px;
+  }
+
+  /* line 394, ../scss/mainfile.scss */
+  .titl {
+    top: 20%;
+    left: 5%;
+  }
+
+  /* line 400, ../scss/mainfile.scss */
+  .contact .grid .col-1-2 form input[type=submit] {
+    width: 95%;
+  }
+
+  /* line 401, ../scss/mainfile.scss */
+  .contact .titlfix {
+    top: 1.0em;
+  }
+
+  /* line 402, ../scss/mainfile.scss */
+  .services {
+    background-size: auto 100%;
+    margin-top: 500px;
+  }
+
+  /* line 403, ../scss/mainfile.scss */
+  #serv {
+    left: 5%;
+  }
+
+  /* line 404, ../scss/mainfile.scss */
+  .col-1-5 {
+    width: 50%;
+  }
+
+  /* line 405, ../scss/mainfile.scss */
+  #navigation li {
+    width: 50%;
+    height: 30px;
+  }
+  /* line 408, ../scss/mainfile.scss */
+  #navigation li a {
+    padding-top: 7px;
+  }
+  /* line 411, ../scss/mainfile.scss */
+  #navigation li:nth-child(3) {
+    width: 100%;
+    height: 60px;
+  }
+  /* line 413, ../scss/mainfile.scss */
+  #navigation li:nth-child(3) a.mp {
+    background-size: auto 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 421, ../scss/mainfile.scss */
+  .titl {
+    letter-spacing: 0px;
+    top: 40%;
+  }
+
+  /* line 422, ../scss/mainfile.scss */
+  .col-1-2 {
+    width: 100%;
+  }
+
+  /* line 423, ../scss/mainfile.scss */
+  .col-1-5 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  /* line 424, ../scss/mainfile.scss */
+  .services {
+    margin-top: 1800px;
+  }
+
+  /* line 425, ../scss/mainfile.scss */
+  .contact .grid .col-1-2 span {
+    font-size: 1.75em;
+    left: 20%;
+    top: 3em;
+  }
+
+  /* line 430, ../scss/mainfile.scss */
+  #footer .grid .col-1-2 img {
+    right: 10%;
+  }
+
+  /* line 433, ../scss/mainfile.scss */
+  .contact .titlfix {
+    top: 0em;
+  }
+
+  /* line 438, ../scss/mainfile.scss */
+  #footer {
+    margin-top: 40px;
+  }
+
+  /* line 440, ../scss/mainfile.scss */
+  .slide[data-slide="1"] {
+    height: 350px;
+  }
+}
