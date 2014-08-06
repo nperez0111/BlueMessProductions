@@ -1,2 +1,5 @@
 # Use PHP5.4 as default
-AddHandler application/x-httpd-php54 .php
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/x-font-woff .woff
